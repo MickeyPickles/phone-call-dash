@@ -9,4 +9,7 @@ You won't need to pay until you want to use a phone number other than your own.
 Also you need an Amazon Dash button:
 https://www.amazon.com/All-New-AWS-IoT-Button-Generation/dp/B01KW6YCIM/ref=sr_1_1?ie=UTF8&qid=1495596655&sr=8-1&keywords=dash+iot
 
-Follow the Amazon Dash documentation to see how to link it to a Lambda function.  
+Follow the Amazon Dash documentation to see how to link it to a Lambda function.  To upload the code I just do this:
+zip -r ~/Downloads/dash.zip *
+
+then in the Lambda console hit "Upload zip file"
