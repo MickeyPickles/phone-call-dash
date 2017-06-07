@@ -2,7 +2,7 @@
 
 //check Nexmo docs on how to generate a private_kay and appId
 const Nexmo = require('nexmo');
-const appId = '0467fb56-e008-4ad9-a18b-767bb118ea36';
+const appId = '<APP_ID>';
 const privateKey = require('fs').readFileSync('./private.key');
 
 //set an env variable for the phone number you want to call like this:
@@ -10,10 +10,9 @@ const privateKey = require('fs').readFileSync('./private.key');
 const recipientNumber = process.env.phoneNumber
 
 //change apiKey and apiSecret accordingly
-//this is not my actual info
 const nexmo = new Nexmo({
-  apiKey: '5s4f2197',
-  apiSecret: 'dsd3r46d75g53n3',
+  apiKey: '<API_KEY>',
+  apiSecret: '<API_SECRET>',
   applicationId: appId,
   privateKey: privateKey
 });
